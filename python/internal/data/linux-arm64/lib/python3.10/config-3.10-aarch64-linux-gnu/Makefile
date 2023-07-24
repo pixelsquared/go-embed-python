@@ -30,8 +30,8 @@ MODLIBS=           $(LOCALMODLIBS) $(BASEMODLIBS)
 VERSION=	3.10
 srcdir=		.
 
-abs_srcdir=	/build/Python-3.10.9
-abs_builddir=	/build/Python-3.10.9
+abs_srcdir=	/build/Python-3.10.11
+abs_builddir=	/build/Python-3.10.11
 
 
 CC=		/usr/bin/aarch64-linux-gnu-gcc
@@ -196,7 +196,7 @@ LIPO_INTEL64_FLAGS=
 OTHER_LIBTOOL_OPT=
 
 # Environment to run shared python without installed libraries
-RUNSHARED=       LD_LIBRARY_PATH=/build/Python-3.10.9
+RUNSHARED=       LD_LIBRARY_PATH=/build/Python-3.10.11
 
 # ensurepip options
 ENSUREPIP=      no

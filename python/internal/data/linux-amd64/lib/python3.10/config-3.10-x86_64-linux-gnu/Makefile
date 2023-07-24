@@ -21,21 +21,21 @@
 
 # === Variables set by makesetup ===
 
-MODBUILT_NAMES=      _asyncio  _bisect  _blake2  _bz2  _codecs_cn  _codecs_hk  _codecs_iso2022  _codecs_jp  _codecs_kr  _codecs_tw  _contextvars  _crypt  _csv  _ctypes  _ctypes_test  _curses  _curses_panel  _datetime  _dbm  _decimal  _elementtree  _hashlib  _heapq  _json  _lsprof  _lzma  _md5  _multibytecodec  _multiprocessing  _opcode  _pickle  _posixshmem  _posixsubprocess  _queue  _random  _sha1  _sha256  _sha3  _sha512  _socket  _sqlite3  _ssl  _statistics  _struct  _testbuffer  _testimportmultiple  _testinternalcapi  _testmultiphase  _tkinter  _uuid  _xxsubinterpreters  _xxtestfuzz  _zoneinfo  array  audioop  binascii  cmath  fcntl  grp  math  mmap  pyexpat  readline  resource  select  spwd  syslog  termios  unicodedata  zlib  posix  errno  pwd  _sre  _codecs  _weakref  _functools  _operator  _collections  _abc  itertools  atexit  _signal  _stat  time  _thread  _locale  _io  faulthandler  _tracemalloc  _symtable  xxsubtype
-MODDISABLED_NAMES=   _gdbm  _scproxy  _testcapi  nis  ossaudiodev  xxlimited  xxlimited_35
-MODOBJS=           Modules/_abc.o Modules/_asynciomodule.o Modules/_bisectmodule.o Modules/_bz2module.o Modules/_codecs_cn.o Modules/_codecs_hk.o Modules/_codecs_iso2022.o Modules/_codecs_jp.o Modules/_codecs_kr.o Modules/_codecs_tw.o Modules/_codecsmodule.o Modules/_collectionsmodule.o Modules/_contextvarsmodule.o Modules/_cryptmodule.o Modules/_csv.o Modules/_ctypes.o Modules/_ctypes_test.o Modules/_curses_panel.o Modules/_cursesmodule.o Modules/_datetimemodule.o Modules/_dbmmodule.o Modules/_decimal.o Modules/_elementtree.o Modules/_functoolsmodule.o Modules/_hashopenssl.o Modules/_heapqmodule.o Modules/_iomodule.o Modules/_json.o Modules/_localemodule.o Modules/_lsprof.o Modules/_lzmamodule.o Modules/_math.o Modules/_opcode.o Modules/_operator.o Modules/_pickle.o Modules/_posixsubprocess.o Modules/_queuemodule.o Modules/_randommodule.o Modules/_sre.o Modules/_ssl.o Modules/_stat.o Modules/_statisticsmodule.o Modules/_struct.o Modules/_testbuffer.o Modules/_testimportmultiple.o Modules/_testinternalcapi.o Modules/_testmultiphase.o Modules/_threadmodule.o Modules/_tkinter.o Modules/_tracemalloc.o Modules/_uuidmodule.o Modules/_weakref.o Modules/_xxsubinterpretersmodule.o Modules/_xxtestfuzz.o Modules/_zoneinfo.o Modules/arraymodule.o Modules/atexitmodule.o Modules/audioop.o Modules/binascii.o Modules/blake2b_impl.o Modules/blake2module.o Modules/blake2s_impl.o Modules/bufferedio.o Modules/bytesio.o Modules/cache.o Modules/callbacks.o Modules/callproc.o Modules/cfield.o Modules/cmathmodule.o Modules/connection.o Modules/cursor.o Modules/errnomodule.o Modules/faulthandler.o Modules/fcntlmodule.o Modules/fileio.o Modules/fuzzer.o Modules/grpmodule.o Modules/iobase.o Modules/itertoolsmodule.o Modules/mathmodule.o Modules/md5module.o Modules/microprotocols.o Modules/mmapmodule.o Modules/module.o Modules/multibytecodec.o Modules/multiprocessing.o Modules/posixmodule.o Modules/posixshmem.o Modules/prepare_protocol.o Modules/pwdmodule.o Modules/pyexpat.o Modules/readline.o Modules/resource.o Modules/rotatingtree.o Modules/row.o Modules/selectmodule.o Modules/semaphore.o Modules/sha1module.o Modules/sha256module.o Modules/sha3module.o Modules/sha512module.o Modules/signalmodule.o Modules/socketmodule.o Modules/spwdmodule.o Modules/statement.o Modules/stgdict.o Modules/stringio.o Modules/symtablemodule.o Modules/syslogmodule.o Modules/termios.o Modules/textio.o Modules/timemodule.o Modules/tkappinit.o Modules/unicodedata.o Modules/util.o Modules/xxsubtype.o Modules/zlibmodule.o
+MODBUILT_NAMES=      _asyncio  _bisect  _blake2  _bz2  _codecs_cn  _codecs_hk  _codecs_iso2022  _codecs_jp  _codecs_kr  _codecs_tw  _contextvars  _crypt  _csv  _ctypes  _ctypes_test  _curses  _curses_panel  _datetime  _dbm  _decimal  _elementtree  _hashlib  _heapq  _json  _lsprof  _lzma  _md5  _multibytecodec  _multiprocessing  _opcode  _pickle  _posixshmem  _posixsubprocess  _queue  _random  _sha1  _sha256  _sha3  _sha512  _socket  _sqlite3  _ssl  _statistics  _struct  _testbuffer  _testimportmultiple  _testinternalcapi  _testmultiphase  _tkinter  _uuid  _xxsubinterpreters  _xxtestfuzz  _zoneinfo  array  audioop  binascii  cmath  fcntl  grp  math  mmap  ossaudiodev  pyexpat  readline  resource  select  spwd  syslog  termios  unicodedata  zlib  posix  errno  pwd  _sre  _codecs  _weakref  _functools  _operator  _collections  _abc  itertools  atexit  _signal  _stat  time  _thread  _locale  _io  faulthandler  _tracemalloc  _symtable  xxsubtype
+MODDISABLED_NAMES=   _gdbm  _scproxy  _testcapi  nis  xxlimited  xxlimited_35
+MODOBJS=           Modules/_abc.o Modules/_asynciomodule.o Modules/_bisectmodule.o Modules/_bz2module.o Modules/_codecs_cn.o Modules/_codecs_hk.o Modules/_codecs_iso2022.o Modules/_codecs_jp.o Modules/_codecs_kr.o Modules/_codecs_tw.o Modules/_codecsmodule.o Modules/_collectionsmodule.o Modules/_contextvarsmodule.o Modules/_cryptmodule.o Modules/_csv.o Modules/_ctypes.o Modules/_ctypes_test.o Modules/_curses_panel.o Modules/_cursesmodule.o Modules/_datetimemodule.o Modules/_dbmmodule.o Modules/_decimal.o Modules/_elementtree.o Modules/_functoolsmodule.o Modules/_hashopenssl.o Modules/_heapqmodule.o Modules/_iomodule.o Modules/_json.o Modules/_localemodule.o Modules/_lsprof.o Modules/_lzmamodule.o Modules/_math.o Modules/_opcode.o Modules/_operator.o Modules/_pickle.o Modules/_posixsubprocess.o Modules/_queuemodule.o Modules/_randommodule.o Modules/_sre.o Modules/_ssl.o Modules/_stat.o Modules/_statisticsmodule.o Modules/_struct.o Modules/_testbuffer.o Modules/_testimportmultiple.o Modules/_testinternalcapi.o Modules/_testmultiphase.o Modules/_threadmodule.o Modules/_tkinter.o Modules/_tracemalloc.o Modules/_uuidmodule.o Modules/_weakref.o Modules/_xxsubinterpretersmodule.o Modules/_xxtestfuzz.o Modules/_zoneinfo.o Modules/arraymodule.o Modules/atexitmodule.o Modules/audioop.o Modules/binascii.o Modules/blake2b_impl.o Modules/blake2module.o Modules/blake2s_impl.o Modules/bufferedio.o Modules/bytesio.o Modules/cache.o Modules/callbacks.o Modules/callproc.o Modules/cfield.o Modules/cmathmodule.o Modules/connection.o Modules/cursor.o Modules/errnomodule.o Modules/faulthandler.o Modules/fcntlmodule.o Modules/fileio.o Modules/fuzzer.o Modules/grpmodule.o Modules/iobase.o Modules/itertoolsmodule.o Modules/mathmodule.o Modules/md5module.o Modules/microprotocols.o Modules/mmapmodule.o Modules/module.o Modules/multibytecodec.o Modules/multiprocessing.o Modules/ossaudiodev.o Modules/posixmodule.o Modules/posixshmem.o Modules/prepare_protocol.o Modules/pwdmodule.o Modules/pyexpat.o Modules/readline.o Modules/resource.o Modules/rotatingtree.o Modules/row.o Modules/selectmodule.o Modules/semaphore.o Modules/sha1module.o Modules/sha256module.o Modules/sha3module.o Modules/sha512module.o Modules/signalmodule.o Modules/socketmodule.o Modules/spwdmodule.o Modules/statement.o Modules/stgdict.o Modules/stringio.o Modules/symtablemodule.o Modules/syslogmodule.o Modules/termios.o Modules/textio.o Modules/timemodule.o Modules/tkappinit.o Modules/unicodedata.o Modules/util.o Modules/xxsubtype.o Modules/zlibmodule.o
 MODLIBS=           $(LOCALMODLIBS) $(BASEMODLIBS)
 
 # === Variables set by configure
 VERSION=	3.10
 srcdir=		.
 
-abs_srcdir=	/build/Python-3.10.9
-abs_builddir=	/build/Python-3.10.9
+abs_srcdir=	/build/Python-3.10.11
+abs_builddir=	/build/Python-3.10.11
 
 
-CC=		musl-clang
-CXX=		
+CC=		clang -pthread
+CXX=		clang++ -pthread
 MAINCC=		$(CC)
 LINKCC=		$(PURIFY) $(MAINCC)
 AR=		/tools/llvm/bin/llvm-ar
@@ -79,19 +79,19 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 
 # Compiler options
 OPT=		-DNDEBUG -g -fwrapv -O3 -Wall
-BASECFLAGS=	 -fno-strict-aliasing -Wsign-compare -Wunreachable-code
+BASECFLAGS=	 -Wno-unused-result -Wsign-compare -Wunreachable-code
 BASECPPFLAGS=	
-CONFIGURE_CFLAGS=	 -fPIC -I/tools/deps/include -I/tools/deps/include/ncursesw -I/tools/deps/libedit/include -static
+CONFIGURE_CFLAGS=	 -fPIC -I/tools/deps/include -I/tools/deps/include/ncursesw -I/tools/deps/libedit/include
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
-CONFIGURE_CFLAGS_NODIST= -flto -g -std=c99 -Werror=implicit-function-declaration -fvisibility=hidden
+CONFIGURE_CFLAGS_NODIST= -flto -g -std=c99 -Wextra -Wno-unused-result -Wno-unused-parameter -Wno-missing-field-initializers -Werror=implicit-function-declaration -fvisibility=hidden
 # LDFLAGS_NODIST is used in the same manner as CFLAGS_NODIST.
 # Use it when a linker flag should _not_ be part of the distutils LDFLAGS
 # once Python is installed (bpo-35257)
 CONFIGURE_LDFLAGS_NODIST= -flto -g
-CONFIGURE_CPPFLAGS=	 -fPIC -I/tools/deps/include -I/tools/deps/include/ncursesw -I/tools/deps/libedit/include -static
-CONFIGURE_LDFLAGS=	 -L/tools/deps/lib -Wl,--exclude-libs,ALL -L/tools/deps/libedit/lib -static
+CONFIGURE_CPPFLAGS=	 -fPIC -I/tools/deps/include -I/tools/deps/include/ncursesw -I/tools/deps/libedit/include
+CONFIGURE_LDFLAGS=	 -L/tools/deps/lib -Wl,--exclude-libs,ALL -L/tools/deps/libedit/lib
 # Avoid assigning CFLAGS, LDFLAGS, etc. so users can use them on the
 # command line to append to these values without stomping the pre-set
 # values.
@@ -110,7 +110,7 @@ CCSHARED=	-fPIC
 LINKFORSHARED=	-Xlinker -export-dynamic
 ARFLAGS=	rcs
 # Extra C flags added for building the interpreter object files.
-CFLAGSFORSHARED=
+CFLAGSFORSHARED=$(CCSHARED)
 # C flags used for building the interpreter object files
 PY_STDMODULE_CFLAGS= $(PY_CFLAGS) $(PY_CFLAGS_NODIST) $(PY_CPPFLAGS) $(CFLAGSFORSHARED)
 PY_BUILTIN_MODULE_CFLAGS= $(PY_STDMODULE_CFLAGS) -DPy_BUILD_CORE_BUILTIN
@@ -196,7 +196,7 @@ LIPO_INTEL64_FLAGS=
 OTHER_LIBTOOL_OPT=
 
 # Environment to run shared python without installed libraries
-RUNSHARED=       
+RUNSHARED=       LD_LIBRARY_PATH=/build/Python-3.10.11
 
 # ensurepip options
 ENSUREPIP=      no
@@ -217,7 +217,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--build=x86_64-unknown-linux-gnu' '--host=x86_64-unknown-linux-gnu' '--prefix=/install' '--with-openssl=/tools/deps' '--with-system-expat' '--with-system-libmpdec' '--without-ensurepip' '--with-readline=editline' '--with-lto' '--with-dbmliborder=bdb' 'ac_cv_buggy_getaddrinfo=no' 'ac_cv_file__dev_ptc=no' 'ac_cv_file__dev_ptmx=no' 'build_alias=x86_64-unknown-linux-gnu' 'host_alias=x86_64-unknown-linux-gnu' 'CC=musl-clang' 'CFLAGS= -fPIC -I/tools/deps/include -I/tools/deps/include/ncursesw -I/tools/deps/libedit/include -static' 'LDFLAGS= -L/tools/deps/lib -Wl,--exclude-libs,ALL -L/tools/deps/libedit/lib -static' 'CPPFLAGS= -fPIC -I/tools/deps/include -I/tools/deps/include/ncursesw -I/tools/deps/libedit/include -static'
+CONFIG_ARGS=	 '--build=x86_64-unknown-linux-gnu' '--host=x86_64-unknown-linux-gnu' '--prefix=/install' '--with-openssl=/tools/deps' '--with-system-expat' '--with-system-libmpdec' '--without-ensurepip' '--with-readline=editline' '--enable-shared' '--enable-optimizations' '--with-lto' '--with-dbmliborder=bdb' 'build_alias=x86_64-unknown-linux-gnu' 'host_alias=x86_64-unknown-linux-gnu' 'CC=clang' 'CFLAGS= -fPIC -I/tools/deps/include -I/tools/deps/include/ncursesw -I/tools/deps/libedit/include' 'LDFLAGS= -L/tools/deps/lib -Wl,--exclude-libs,ALL -L/tools/deps/libedit/lib' 'CPPFLAGS= -fPIC -I/tools/deps/include -I/tools/deps/include/ncursesw -I/tools/deps/libedit/include'
 
 
 # Subdirectories with code
@@ -234,18 +234,18 @@ DIST=		$(DISTFILES) $(DISTDIRS)
 
 
 LIBRARY=	libpython$(VERSION)$(ABIFLAGS).a
-LDLIBRARY=      libpython$(VERSION)$(ABIFLAGS).a
-BLDLIBRARY=     $(LDLIBRARY)
-PY3LIBRARY=     
+LDLIBRARY=      libpython$(LDVERSION).so
+BLDLIBRARY=     -L. -lpython$(LDVERSION)
+PY3LIBRARY=     libpython3.so
 DLLLIBRARY=	
 LDLIBRARYDIR=   
-INSTSONAME=	$(LDLIBRARY)
-LIBRARY_DEPS=	$(LIBRARY) $(PY3LIBRARY) $(EXPORTSYMS)
-PY_ENABLE_SHARED=	0
+INSTSONAME=	libpython$(LDVERSION).so.1.0
+LIBRARY_DEPS=	$(LIBRARY) $(LDLIBRARY) $(PY3LIBRARY) $(EXPORTSYMS)
+PY_ENABLE_SHARED=	1
 STATIC_LIBPYTHON=	1
 
 
-LIBS=		-ldl  -lpthread -lm
+LIBS=		-lcrypt -lpthread -ldl  -lutil -lm
 LIBM=		-lm
 LIBC=		
 SYSLIBS=	$(LIBM) $(LIBC)
@@ -260,10 +260,10 @@ LIBOBJS=
 PYTHON=		python$(EXE)
 BUILDPYTHON=	python$(BUILDEXE)
 
-PYTHON_FOR_REGEN?=python3.10
+PYTHON_FOR_REGEN?=python3
 UPDATE_FILE=$(PYTHON_FOR_REGEN) $(srcdir)/Tools/scripts/update_file.py
-PYTHON_FOR_BUILD=_PYTHON_PROJECT_BASE=$(abs_builddir) _PYTHON_HOST_PLATFORM=$(_PYTHON_HOST_PLATFORM) PYTHONPATH=$(shell test -f pybuilddir.txt && echo $(abs_builddir)/`cat pybuilddir.txt`:)$(srcdir)/Lib _PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_$(ABIFLAGS)_$(MACHDEP)_$(MULTIARCH) python3.10
-_PYTHON_HOST_PLATFORM=linux-x86_64
+PYTHON_FOR_BUILD=./$(BUILDPYTHON) -E
+_PYTHON_HOST_PLATFORM=
 BUILD_GNU_TYPE=	x86_64-unknown-linux-gnu
 HOST_GNU_TYPE=	x86_64-unknown-linux-gnu
 
@@ -285,7 +285,7 @@ COVERAGE_REPORT_OPTIONS=--no-branch-coverage --title "CPython lcov report"
 
 # === Definitions added by makesetup ===
 
-LOCALMODLIBS=     -lbz2         -lcrypt   -lffi -ldl  -lm  -lncursesw  -lpanelw -lncursesw   -ldb  -lmpdec  -lexpat  -lcrypto     -llzma       -lrt          -lsqlite3  -lssl -lcrypto        -ltcl8.6 -ltk8.6 -lX11 -lxcb -lXau  -luuid        -lm    -lm   -lexpat  -ledit -lncursesw        -lz                      
+LOCALMODLIBS=     -lbz2         -lcrypt   -lffi -ldl  -lm  -lncursesw  -lpanelw -lncursesw   -ldb  -lmpdec  -lexpat  -lcrypto     -llzma       -lrt          -lsqlite3  -lssl -lcrypto        -ltcl8.6 -ltk8.6 -lX11 -lxcb -lXau  -luuid        -lm    -lm    -lexpat  -ledit -lncursesw        -lz                      
 BASEMODLIBS=
 PYTHONPATH=$(COREPYTHONPATH)
 COREPYTHONPATH=$(DESTPATH)$(SITEPATH)$(TESTPATH)
@@ -482,7 +482,7 @@ DTRACE_DEPS = \
 # Rules
 
 # Default target
-all:		build_all
+all:		profile-opt
 build_all:	check-clean-src $(BUILDPYTHON) oldsharedmods sharedmods gdbhooks \
 		Programs/_testembed python-config
 
@@ -528,7 +528,7 @@ profile-run-stamp:
 	touch $@
 
 build_all_generate_profile:
-	$(MAKE) all CFLAGS_NODIST="$(CFLAGS_NODIST) $(PGO_PROF_GEN_FLAG)" LDFLAGS_NODIST="$(LDFLAGS_NODIST) $(PGO_PROF_GEN_FLAG)" LIBS="$(LIBS)"
+	$(MAKE) build_all CFLAGS_NODIST="$(CFLAGS_NODIST) $(PGO_PROF_GEN_FLAG)" LDFLAGS_NODIST="$(LDFLAGS_NODIST) $(PGO_PROF_GEN_FLAG)" LIBS="$(LIBS)"
 
 run_profile_task:
 	@ # FIXME: can't run for a cross build
@@ -540,7 +540,7 @@ build_all_merge_profile:
 profile-rebuild-stamp: profile-run-stamp
 	@echo "Rebuilding with profile guided optimizations:"
 	-rm -f profile-clean-stamp
-	$(MAKE) all CFLAGS_NODIST="$(CFLAGS_NODIST) $(PGO_PROF_USE_FLAG)" LDFLAGS_NODIST="$(LDFLAGS_NODIST)"
+	$(MAKE) build_all CFLAGS_NODIST="$(CFLAGS_NODIST) $(PGO_PROF_USE_FLAG)" LDFLAGS_NODIST="$(LDFLAGS_NODIST)"
 	touch $@
 
 # Compile Python binary with profile guided optimization.
@@ -553,7 +553,7 @@ profile-opt: profile-rebuild-stamp
 coverage:
 	@echo "Building with support for coverage checking:"
 	$(MAKE) clean
-	$(MAKE) all CFLAGS="$(CFLAGS) -O0 -pg --coverage" LIBS="$(LIBS) --coverage"
+	$(MAKE) build_all CFLAGS="$(CFLAGS) -O0 -pg --coverage" LIBS="$(LIBS) --coverage"
 
 coverage-lcov:
 	@echo "Creating Coverage HTML report with LCOV:"
@@ -1224,7 +1224,7 @@ cleantest: build_all
 
 # Run a basic set of regression tests.
 # This excludes some tests that are particularly resource-intensive.
-test:		all platform
+test:		build_all platform
 		$(TESTRUNNER) $(TESTOPTS)
 
 # Run the full test suite twice - once without .pyc files, and once with.
@@ -1234,7 +1234,7 @@ test:		all platform
 # the bytecode read from a .pyc file had the bug, sometimes the directly
 # generated bytecode.  This is sometimes a very shy bug needing a lot of
 # sample data.
-testall:	all platform
+testall:	build_all platform
 		-find $(srcdir)/Lib -name '*.py[co]' -print | xargs rm -f
 		$(TESTPYTHON) -E $(srcdir)/Lib/compileall.py
 		-find $(srcdir)/Lib -name '*.py[co]' -print | xargs rm -f
@@ -1243,7 +1243,7 @@ testall:	all platform
 
 # Run the test suite for both architectures in a Universal build on OSX.
 # Must be run on an Intel box.
-testuniversal:	all platform
+testuniversal:	build_all platform
 		@if [ `arch` != 'i386' ]; then \
 			echo "This can only be used on OSX/i386" ;\
 			exit 1 ;\
@@ -1269,7 +1269,7 @@ QUICKTESTOPTS=	$(TESTOPTS) -x test_subprocess test_io test_lib2to3 \
 		test_multiprocessing_forkserver \
 		test_mailbox test_socket test_poll \
 		test_select test_zipfile test_concurrent_futures
-quicktest:	all platform
+quicktest:	build_all platform
 		$(TESTRUNNER) $(QUICKTESTOPTS)
 
 # SSL tests
@@ -1710,7 +1710,7 @@ LIBPL=		$(prefix)/lib/python3.10/config-$(VERSION)$(ABIFLAGS)-x86_64-linux-gnu
 # pkgconfig directory
 LIBPC=		$(LIBDIR)/pkgconfig
 
-libainstall:	all python-config
+libainstall:	build_all python-config
 	@for i in $(LIBDIR) $(LIBPL) $(LIBPC) $(BINDIR); \
 	do \
 		if test ! -d $(DESTDIR)$$i; then \
@@ -1942,7 +1942,7 @@ profile-removal:
 	rm -f profile-run-stamp
 
 clean: clean-retain-profile
-	@if test build_all = profile-opt; then \
+	@if test profile-opt = profile-opt; then \
 		rm -f profile-gen-stamp profile-clean-stamp; \
 		$(MAKE) profile-removal; \
 	fi
@@ -1977,7 +1977,7 @@ distclean: clobber docclean
 				     -exec rm -f {} ';'
 
 # Check that all symbols exported by libpython start with "Py" or "_Py"
-smelly: all
+smelly: build_all
 	$(RUNSHARED) ./$(BUILDPYTHON) $(srcdir)/Tools/scripts/smelly.py
 
 # Find files with funny names
@@ -2012,7 +2012,7 @@ funny:
 		-o -print
 
 # Perform some verification checks on any modified files.
-patchcheck: all
+patchcheck: build_all
 	$(RUNSHARED) ./$(BUILDPYTHON) $(srcdir)/Tools/scripts/patchcheck.py
 
 check-limited-abi: all
@@ -2134,6 +2134,7 @@ Modules/grpmodule.o: $(srcdir)/Modules/grpmodule.c; $(CC) $(PY_BUILTIN_MODULE_CF
 Modules/mathmodule.o: $(srcdir)/Modules/mathmodule.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -c $(srcdir)/Modules/mathmodule.c -o Modules/mathmodule.o
 Modules/_math.o: $(srcdir)/Modules/_math.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -c $(srcdir)/Modules/_math.c -o Modules/_math.o
 Modules/mmapmodule.o: $(srcdir)/Modules/mmapmodule.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -c $(srcdir)/Modules/mmapmodule.c -o Modules/mmapmodule.o
+Modules/ossaudiodev.o: $(srcdir)/Modules/ossaudiodev.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -c $(srcdir)/Modules/ossaudiodev.c -o Modules/ossaudiodev.o
 Modules/pyexpat.o: $(srcdir)/Modules/pyexpat.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -c $(srcdir)/Modules/pyexpat.c -o Modules/pyexpat.o
 Modules/readline.o: $(srcdir)/Modules/readline.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -I/tools/deps/libedit/include -I/tools/deps/libedit/include/ncursesw -c $(srcdir)/Modules/readline.c -o Modules/readline.o
 Modules/resource.o: $(srcdir)/Modules/resource.c; $(CC) $(PY_BUILTIN_MODULE_CFLAGS)  -c $(srcdir)/Modules/resource.c -o Modules/resource.o

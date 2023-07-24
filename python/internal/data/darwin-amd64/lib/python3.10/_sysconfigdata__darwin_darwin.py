@@ -7,7 +7,7 @@ build_time_vars = {'ABIFLAGS': '',
  'ALIGNOF_SIZE_T': 8,
  'ALT_SOABI': 0,
  'ANDROID_API_LEVEL': 0,
- 'AR': '/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/llvm/bin/llvm-ar',
+ 'AR': '/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/llvm/bin/llvm-ar',
  'ARFLAGS': 'rcs',
  'BASECFLAGS': '-Wno-unused-result -Wsign-compare -Wunreachable-code',
  'BASECPPFLAGS': '',
@@ -18,7 +18,7 @@ build_time_vars = {'ABIFLAGS': '',
  'BLDSHARED': 'clang -bundle -undefined dynamic_lookup -arch x86_64 '
               '-mmacosx-version-min=10.9 -isysroot '
               '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
-              '-L/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/lib',
+              '-L/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/lib',
  'BUILDEXE': '.exe',
  'BUILDPYTHON': 'python.exe',
  'BUILD_GNU_TYPE': 'x86_64-apple-darwin',
@@ -31,9 +31,9 @@ build_time_vars = {'ABIFLAGS': '',
            '-Wno-undef-prefix  -isysroot '
            '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
            '-fPIC '
-           '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include '
-           '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/ncursesw '
-           '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/uuid '
+           '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include '
+           '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/ncursesw '
+           '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/uuid '
            '-Werror=unguarded-availability-new',
  'CFLAGSFORSHARED': '',
  'CFLAGS_ALIASING': '-fno-strict-aliasing',
@@ -45,9 +45,9 @@ build_time_vars = {'ABIFLAGS': '',
                      '-Wno-undef-prefix  -isysroot '
                      '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
                      '-fPIC '
-                     '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include '
-                     '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/ncursesw '
-                     '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/uuid '
+                     '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include '
+                     '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/ncursesw '
+                     '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/uuid '
                      '-Werror=unguarded-availability-new',
  'CONFIGURE_CFLAGS_NODIST': '-flto -std=c99 -Wextra -Wno-unused-result '
                             '-Wno-unused-parameter '
@@ -59,17 +59,17 @@ build_time_vars = {'ABIFLAGS': '',
                        '-Wno-expansion-to-defined -Wno-undef-prefix  -isysroot '
                        '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
                        '-fPIC '
-                       '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include '
-                       '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/ncursesw '
-                       '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/uuid '
+                       '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include '
+                       '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/ncursesw '
+                       '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/uuid '
                        '-Werror=unguarded-availability-new',
  'CONFIGURE_LDFLAGS': '-arch x86_64 -mmacosx-version-min=10.9 -isysroot '
                       '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
-                      '-L/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/lib',
+                      '-L/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/lib',
  'CONFIGURE_LDFLAGS_NODIST': '-flto -Wl,-export_dynamic -g',
  'CONFIG_ARGS': "'--build=x86_64-apple-darwin' '--host=x86_64-apple-darwin' "
                 "'--prefix=/install' "
-                "'--with-openssl=/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps' "
+                "'--with-openssl=/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps' "
                 "'--with-system-expat' '--with-system-libmpdec' "
                 "'--without-ensurepip' '--enable-shared' '--with-lto' "
                 "'ac_cv_lib_intl_textdomain=no' '--with-dbmliborder=ndbm' "
@@ -80,27 +80,27 @@ build_time_vars = {'ABIFLAGS': '',
                 '-Wno-undef-prefix  -isysroot '
                 '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
                 '-fPIC '
-                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include '
-                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/ncursesw '
-                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/uuid '
+                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include '
+                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/ncursesw '
+                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/uuid '
                 "-Werror=unguarded-availability-new' 'LDFLAGS=-arch x86_64 "
                 '-mmacosx-version-min=10.9 -isysroot '
                 '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
-                "-L/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/lib' "
+                "-L/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/lib' "
                 "'CPPFLAGS=-arch x86_64 -mmacosx-version-min=10.9 "
                 '-Wno-nullability-completeness -Wno-expansion-to-defined '
                 '-Wno-undef-prefix  -isysroot '
                 '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
                 '-fPIC '
-                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include '
-                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/ncursesw '
-                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/uuid '
+                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include '
+                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/ncursesw '
+                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/uuid '
                 "-Werror=unguarded-availability-new'",
  'CONFINCLUDEDIR': '/install/include',
  'CONFINCLUDEPY': '/install/include/python3.10',
  'COREPYTHONPATH': '',
- 'COVERAGE_INFO': '/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/Python-3.10.9/coverage.info',
- 'COVERAGE_REPORT': '/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/Python-3.10.9/lcov-report',
+ 'COVERAGE_INFO': '/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/Python-3.10.11/coverage.info',
+ 'COVERAGE_REPORT': '/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/Python-3.10.11/lcov-report',
  'COVERAGE_REPORT_OPTIONS': '--no-branch-coverage --title "CPython lcov '
                             'report"',
  'CPPFLAGS': '-I. -I./Include -arch x86_64 -mmacosx-version-min=10.9 '
@@ -108,9 +108,9 @@ build_time_vars = {'ABIFLAGS': '',
              '-Wno-undef-prefix  -isysroot '
              '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
              '-fPIC '
-             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include '
-             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/ncursesw '
-             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/uuid '
+             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include '
+             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/ncursesw '
+             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/uuid '
              '-Werror=unguarded-availability-new',
  'CXX': 'clang++',
  'DESTDIRS': '/install /install/lib /install/lib/python3.10 '
@@ -600,14 +600,14 @@ build_time_vars = {'ABIFLAGS': '',
  'LDCXXSHARED': 'clang++ -bundle -undefined dynamic_lookup',
  'LDFLAGS': '-arch x86_64 -mmacosx-version-min=10.9 -isysroot '
             '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
-            '-L/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/lib',
+            '-L/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/lib',
  'LDFLAGS_NODIST': '',
  'LDLIBRARY': 'libpython3.10.dylib',
  'LDLIBRARYDIR': '',
  'LDSHARED': 'clang -bundle -undefined dynamic_lookup -arch x86_64 '
              '-mmacosx-version-min=10.9 -isysroot '
              '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
-             '-L/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/lib',
+             '-L/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/lib',
  'LDVERSION': '3.10',
  'LIBC': '',
  'LIBDEST': '/install/lib/python3.10',
@@ -631,7 +631,7 @@ build_time_vars = {'ABIFLAGS': '',
  'LIPO_INTEL64_FLAGS': '',
  'LLVM_PROF_ERR': 'no',
  'LLVM_PROF_FILE': 'LLVM_PROFILE_FILE="code-%p.profclangr"',
- 'LLVM_PROF_MERGER': '/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/llvm/bin/llvm-profdata '
+ 'LLVM_PROF_MERGER': '/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/llvm/bin/llvm-profdata '
                      'merge -output=code.profclangd *.profclangr',
  'LN': 'ln',
  'LOCALMODLIBS': '-Xlinker -hidden-lbz2           -Xlinker -hidden-lffi '
@@ -746,8 +746,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MVWDELCH_IS_EXPRESSION': 1,
  'NO_AS_NEEDED': '',
  'OBJECT_OBJS': '\\',
- 'OPENSSL_INCLUDES': '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include',
- 'OPENSSL_LDFLAGS': '-L/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/lib',
+ 'OPENSSL_INCLUDES': '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include',
+ 'OPENSSL_LDFLAGS': '-L/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/lib',
  'OPENSSL_LIBS': '-lssl -lcrypto',
  'OPENSSL_RPATH': '',
  'OPT': '-DNDEBUG -g -fwrapv -O3 -Wall',
@@ -792,9 +792,9 @@ build_time_vars = {'ABIFLAGS': '',
                              '-isysroot '
                              '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
                              '-fPIC '
-                             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include '
-                             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/ncursesw '
-                             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/uuid '
+                             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include '
+                             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/ncursesw '
+                             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/uuid '
                              '-Werror=unguarded-availability-new -flto '
                              '-std=c99 -Wextra -Wno-unused-result '
                              '-Wno-unused-parameter '
@@ -808,9 +808,9 @@ build_time_vars = {'ABIFLAGS': '',
                              '-isysroot '
                              '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
                              '-fPIC '
-                             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include '
-                             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/ncursesw '
-                             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/uuid '
+                             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include '
+                             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/ncursesw '
+                             '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/uuid '
                              '-Werror=unguarded-availability-new '
                              '-DPy_BUILD_CORE_BUILTIN',
  'PY_CFLAGS': '-Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG '
@@ -819,9 +819,9 @@ build_time_vars = {'ABIFLAGS': '',
               '-Wno-undef-prefix  -isysroot '
               '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
               '-fPIC '
-              '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include '
-              '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/ncursesw '
-              '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/uuid '
+              '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include '
+              '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/ncursesw '
+              '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/uuid '
               '-Werror=unguarded-availability-new',
  'PY_CFLAGS_NODIST': '-flto -std=c99 -Wextra -Wno-unused-result '
                      '-Wno-unused-parameter -Wno-missing-field-initializers '
@@ -834,9 +834,9 @@ build_time_vars = {'ABIFLAGS': '',
                    '-Wno-expansion-to-defined -Wno-undef-prefix  -isysroot '
                    '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
                    '-fPIC '
-                   '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include '
-                   '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/ncursesw '
-                   '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/uuid '
+                   '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include '
+                   '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/ncursesw '
+                   '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/uuid '
                    '-Werror=unguarded-availability-new -flto -std=c99 -Wextra '
                    '-Wno-unused-result -Wno-unused-parameter '
                    '-Wno-missing-field-initializers '
@@ -846,28 +846,28 @@ build_time_vars = {'ABIFLAGS': '',
                    '-Wno-expansion-to-defined -Wno-undef-prefix  -isysroot '
                    '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
                    '-fPIC '
-                   '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include '
-                   '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/ncursesw '
-                   '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/uuid '
+                   '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include '
+                   '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/ncursesw '
+                   '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/uuid '
                    '-Werror=unguarded-availability-new -DPy_BUILD_CORE',
  'PY_CORE_LDFLAGS': '-arch x86_64 -mmacosx-version-min=10.9 -isysroot '
                     '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
-                    '-L/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/lib '
+                    '-L/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/lib '
                     '-flto -Wl,-export_dynamic -g',
  'PY_CPPFLAGS': '-I. -I./Include -arch x86_64 -mmacosx-version-min=10.9 '
                 '-Wno-nullability-completeness -Wno-expansion-to-defined '
                 '-Wno-undef-prefix  -isysroot '
                 '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
                 '-fPIC '
-                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include '
-                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/ncursesw '
-                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/uuid '
+                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include '
+                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/ncursesw '
+                '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/uuid '
                 '-Werror=unguarded-availability-new',
  'PY_ENABLE_SHARED': 1,
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': '-arch x86_64 -mmacosx-version-min=10.9 -isysroot '
                '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
-               '-L/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/lib',
+               '-L/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/lib',
  'PY_LDFLAGS_NODIST': '-flto -Wl,-export_dynamic -g',
  'PY_SSL_DEFAULT_CIPHERS': 1,
  'PY_SSL_DEFAULT_CIPHER_STRING': 0,
@@ -879,9 +879,9 @@ build_time_vars = {'ABIFLAGS': '',
                         '-isysroot '
                         '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
                         '-fPIC '
-                        '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include '
-                        '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/ncursesw '
-                        '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/uuid '
+                        '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include '
+                        '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/ncursesw '
+                        '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/uuid '
                         '-Werror=unguarded-availability-new -flto -std=c99 '
                         '-Wextra -Wno-unused-result -Wno-unused-parameter '
                         '-Wno-missing-field-initializers '
@@ -893,9 +893,9 @@ build_time_vars = {'ABIFLAGS': '',
                         '-isysroot '
                         '/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk '
                         '-fPIC '
-                        '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include '
-                        '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/ncursesw '
-                        '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/tools/deps/include/uuid '
+                        '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include '
+                        '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/ncursesw '
+                        '-I/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/tools/deps/include/uuid '
                         '-Werror=unguarded-availability-new',
  'Py_DEBUG': 0,
  'Py_ENABLE_SHARED': 1,
@@ -905,7 +905,7 @@ build_time_vars = {'ABIFLAGS': '',
  'READELF': ':',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
- 'RUNSHARED': 'DYLD_LIBRARY_PATH=/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/Python-3.10.9',
+ 'RUNSHARED': 'DYLD_LIBRARY_PATH=/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/Python-3.10.11',
  'SCRIPTDIR': '/install/lib',
  'SETPGRP_HAVE_ARG': 0,
  'SHELL': '/bin/sh',
@@ -947,10 +947,10 @@ build_time_vars = {'ABIFLAGS': '',
  'TCLTK_LIBS': '',
  'TESTOPTS': '',
  'TESTPATH': '',
- 'TESTPYTHON': 'DYLD_LIBRARY_PATH=/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/Python-3.10.9 '
+ 'TESTPYTHON': 'DYLD_LIBRARY_PATH=/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/Python-3.10.11 '
                './python.exe',
  'TESTPYTHONOPTS': '',
- 'TESTRUNNER': 'DYLD_LIBRARY_PATH=/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/Python-3.10.9 '
+ 'TESTRUNNER': 'DYLD_LIBRARY_PATH=/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/Python-3.10.11 '
                './python.exe ./Tools/scripts/run_tests.py',
  'TESTSUBDIRS': 'ctypes/test \\',
  'TESTTIMEOUT': 1200,
@@ -978,8 +978,8 @@ build_time_vars = {'ABIFLAGS': '',
  'WITH_VALGRIND': 0,
  'X87_DOUBLE_ROUNDING': 0,
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
- 'abs_builddir': '/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/Python-3.10.9',
- 'abs_srcdir': '/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpns8w2sji/Python-3.10.9',
+ 'abs_builddir': '/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/Python-3.10.11',
+ 'abs_srcdir': '/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmptl4_peeg/Python-3.10.11',
  'datarootdir': '/install/share',
  'exec_prefix': '/install',
  'prefix': '/install',

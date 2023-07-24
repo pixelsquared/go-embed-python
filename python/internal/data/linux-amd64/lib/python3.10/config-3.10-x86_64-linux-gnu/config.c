@@ -84,6 +84,7 @@ extern PyObject* PyInit_fcntl(void);
 extern PyObject* PyInit_grp(void);
 extern PyObject* PyInit_math(void);
 extern PyObject* PyInit_mmap(void);
+extern PyObject* PyInit_ossaudiodev(void);
 extern PyObject* PyInit_pyexpat(void);
 extern PyObject* PyInit_readline(void);
 extern PyObject* PyInit_resource(void);
@@ -188,6 +189,7 @@ struct _inittab _PyImport_Inittab[] = {
     {"grp", PyInit_grp},
     {"math", PyInit_math},
     {"mmap", PyInit_mmap},
+    {"ossaudiodev", PyInit_ossaudiodev},
     {"pyexpat", PyInit_pyexpat},
     {"readline", PyInit_readline},
     {"resource", PyInit_resource},

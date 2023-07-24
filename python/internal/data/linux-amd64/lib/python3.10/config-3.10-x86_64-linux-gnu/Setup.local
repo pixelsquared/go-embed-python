@@ -60,6 +60,7 @@ fcntl fcntlmodule.c
 grp grpmodule.c
 math mathmodule.c _math.c -lm
 mmap mmapmodule.c
+ossaudiodev ossaudiodev.c
 pyexpat pyexpat.c -lexpat
 readline readline.c  -I/tools/deps/libedit/include -I/tools/deps/libedit/include/ncursesw -ledit -lncursesw
 resource resource.c
@@ -76,6 +77,5 @@ _gdbm
 _scproxy
 _testcapi
 nis
-ossaudiodev
 xxlimited
 xxlimited_35

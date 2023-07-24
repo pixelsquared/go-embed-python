@@ -65,8 +65,8 @@ build_time_vars = {'ABIFLAGS': '',
  'CONFINCLUDEDIR': '/install/include',
  'CONFINCLUDEPY': '/install/include/python3.10',
  'COREPYTHONPATH': '',
- 'COVERAGE_INFO': '/build/Python-3.10.9/coverage.info',
- 'COVERAGE_REPORT': '/build/Python-3.10.9/lcov-report',
+ 'COVERAGE_INFO': '/build/Python-3.10.11/coverage.info',
+ 'COVERAGE_REPORT': '/build/Python-3.10.11/lcov-report',
  'COVERAGE_REPORT_OPTIONS': '--no-branch-coverage --title "CPython lcov '
                             'report"',
  'CPPFLAGS': '-I. -I./Include -fPIC -I/tools/deps/include '
@@ -712,10 +712,10 @@ build_time_vars = {'ABIFLAGS': '',
  'PYTHONFRAMEWORKINSTALLDIR': '',
  'PYTHONFRAMEWORKPREFIX': '',
  'PYTHONPATH': '',
- 'PYTHON_FOR_BUILD': '_PYTHON_PROJECT_BASE=/build/Python-3.10.9 '
+ 'PYTHON_FOR_BUILD': '_PYTHON_PROJECT_BASE=/build/Python-3.10.11 '
                      '_PYTHON_HOST_PLATFORM=$(_PYTHON_HOST_PLATFORM) '
                      'PYTHONPATH=$(shell test -f pybuilddir.txt && echo '
-                     '/build/Python-3.10.9/`cat pybuilddir.txt`:)./Lib '
+                     '/build/Python-3.10.11/`cat pybuilddir.txt`:)./Lib '
                      '_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata__linux_aarch64-linux-gnu '
                      'python3.10',
  'PYTHON_FOR_REGEN': '',
@@ -791,7 +791,7 @@ build_time_vars = {'ABIFLAGS': '',
  'READELF': 'readelf',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
- 'RUNSHARED': 'LD_LIBRARY_PATH=/build/Python-3.10.9',
+ 'RUNSHARED': 'LD_LIBRARY_PATH=/build/Python-3.10.11',
  'SCRIPTDIR': '/install/lib',
  'SETPGRP_HAVE_ARG': 0,
  'SHELL': '/bin/sh',
@@ -833,9 +833,9 @@ build_time_vars = {'ABIFLAGS': '',
  'TCLTK_LIBS': '',
  'TESTOPTS': '',
  'TESTPATH': '',
- 'TESTPYTHON': 'LD_LIBRARY_PATH=/build/Python-3.10.9 ./python',
+ 'TESTPYTHON': 'LD_LIBRARY_PATH=/build/Python-3.10.11 ./python',
  'TESTPYTHONOPTS': '',
- 'TESTRUNNER': 'LD_LIBRARY_PATH=/build/Python-3.10.9 ./python '
+ 'TESTRUNNER': 'LD_LIBRARY_PATH=/build/Python-3.10.11 ./python '
                './Tools/scripts/run_tests.py',
  'TESTSUBDIRS': 'ctypes/test \\',
  'TESTTIMEOUT': 1200,
@@ -863,8 +863,8 @@ build_time_vars = {'ABIFLAGS': '',
  'WITH_VALGRIND': 0,
  'X87_DOUBLE_ROUNDING': 0,
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
- 'abs_builddir': '/build/Python-3.10.9',
- 'abs_srcdir': '/build/Python-3.10.9',
+ 'abs_builddir': '/build/Python-3.10.11',
+ 'abs_srcdir': '/build/Python-3.10.11',
  'datarootdir': '/install/share',
  'exec_prefix': '/install',
  'prefix': '/install',

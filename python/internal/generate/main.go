@@ -17,8 +17,8 @@ import (
 // versions taken from https://github.com/indygreg/python-build-standalone/releases/
 const (
 	pythonVersionBase       = "3.10"
-	pythonVersionFull       = "3.10.9"
-	pythonStandaloneVersion = "20230116"
+	pythonVersionFull       = "3.10.11"
+	pythonStandaloneVersion = "20230507"
 )
 
 var archMapping = map[string]string{
@@ -30,7 +30,6 @@ var archMapping = map[string]string{
 var removeLibs = []string{
 	"ctypes",
 	"distutils",
-	"ensurepip",
 	"idlelib",
 	"lib2to3",
 	"multiprocessing",
@@ -71,7 +70,7 @@ func main() {
 	}
 
 	jobs := []job{
-		{"linux", "amd64", "unknown-linux-musl-lto-full", keepNixPatterns},
+		{"linux", "amd64", "unknown-linux-gnu-pgo+lto-full", keepNixPatterns},
 		{"linux", "arm64", "unknown-linux-gnu-lto-full", keepNixPatterns},
 		{"darwin", "amd64", "apple-darwin-lto-full", keepNixPatterns},
 		{"darwin", "arm64", "apple-darwin-lto-full", keepNixPatterns},
