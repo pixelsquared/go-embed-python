@@ -28,7 +28,6 @@ var archMapping = map[string]string{
 }
 
 var removeLibs = []string{
-	"ctypes",
 	"idlelib",
 	"lib2to3",
 	"pydoc_data",
