@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"github.com/gobwas/glob"
 	"github.com/klauspost/compress/zstd"
-	"github.com/kluctl/go-embed-python/embed_util"
-	"github.com/kluctl/go-embed-python/internal"
+	"github.com/pixelsquared/go-embed-python/embed_util"
+	"github.com/pixelsquared/go-embed-python/internal"
 	log "github.com/sirupsen/logrus"
 	"io"
 	"net/http"
@@ -16,8 +16,8 @@ import (
 
 // versions taken from https://github.com/indygreg/python-build-standalone/releases/
 const (
-	pythonVersionBase       = "3.10"
-	pythonVersionFull       = "3.10.11"
+	pythonVersionBase       = "3.11"
+	pythonVersionFull       = "3.11.3"
 	pythonStandaloneVersion = "20230507"
 )
 
@@ -29,12 +29,9 @@ var archMapping = map[string]string{
 
 var removeLibs = []string{
 	"ctypes",
-	"distutils",
 	"idlelib",
 	"lib2to3",
-	"multiprocessing",
 	"pydoc_data",
-	"site-packages",
 	"sqlite3",
 	"test",
 	"turtledemo",
